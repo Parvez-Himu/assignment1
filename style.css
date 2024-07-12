@@ -1,0 +1,139 @@
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* nav styles */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 92px 0px 150px;
+}
+
+.nav-title {
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 17px 24px 17px 24px;
+    border-radius: 5px;
+}
+
+/* Banner design */
+.banner {
+    background-image: url(assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black; 
+    height: 652px;
+}
+
+.banner-content {
+    max-width: 998px;
+    max-height: 582px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 26px 221px 44px 221px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.banner p {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 852px;
+    color: rgb(13, 19, 33);  
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-btn {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 32px;
+    margin-bottom: 44px;
+    padding: 17px 24px 17px 24px;
+    border-radius: 5px;
+    background-color: rgb(13, 19, 33);
+    color: rgb(255, 255, 255)
+}
+
+
+/* main section design */
+
+.purpose-sec {
+    margin-left: 148px;
+    margin-right: 152px;
+    padding: 80px 97px;
+    height: 1395px;
+}
+
+.head1 {
+    text-align: center;
+    max-width: 852px;
+    margin: 0 auto;
+}
+
+.head1 h1 {
+    font-weight: 800;
+    font-size: 32px;
+    color: rgb(13, 19, 33)
+}
+
+.head1 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(13, 19, 33)
+}
+
+.head2 {
+    margin-top: 48px;
+    padding: 48px;
+    max-height:336px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.head2-text {
+    width: 477px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.head2-text h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.learn-more-1{
+    font-size: 20px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+}
+
+
+
