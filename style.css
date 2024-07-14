@@ -92,6 +92,7 @@ nav ul li {
 
 /* main section design */
 
+/* Purpose section styling/why section */
 .purpose-sec {
     /* margin-left: 148px;
     margin-right: 152px; */
@@ -174,7 +175,75 @@ nav ul li {
     margin-top: 48px;
     padding: 32px;
     border-radius: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
 }
 
+/* My Current Target Section design  */
 
+.target-section{
+    margin-top: 149px;
+}
 
+.learn-more-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+}
+
+/* Icon section design(current target sec) */
+.primary-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.icon-html, .icon-css, .icon-js {
+    width: 364px;
+    padding: 40px;
+    margin-top: 48px;
+}
+
+.icon-html{
+    background: rgba(255, 76, 30, 0.05);
+}
+.icon-css{
+    background: rgba(0, 76, 232, 0.05);
+}
+.icon-js{
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* My next target Section styling */
+
+.secondary-icons{
+    margin-top: 48px;
+}
+
+.next-target{
+    margin-top: 111px;
+}
+
+.react, .node, .mongoDB {
+    padding: 40px;
+    max-width: 1140px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.react-icon,.node-icon, .mongoDB-icon{
+    margin-right: 24px;
+}
