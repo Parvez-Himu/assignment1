@@ -1,3 +1,4 @@
+/* Adding google font */
 .azeret-mono {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -89,13 +90,10 @@ nav ul li {
     color: rgb(255, 255, 255)
 }
 
-
 /* main section design */
 
 /* Purpose section styling/why section */
 .purpose-sec {
-    /* margin-left: 148px;
-    margin-right: 152px; */
     padding: 80px 97px;
     height: 1395px;
     width: 1140px;
@@ -259,13 +257,13 @@ height: 57px;
     max-height: 314px;
     padding: 64px 48px;
     border-radius: 16px;
-    /* background-color: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email); */
     background-image: url(assets/handshake.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 16px;
     margin: 0 auto;
+    margin-top: 44px;
     text-align: center;
 }
 
@@ -300,3 +298,26 @@ height: 57px;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
 }
+
+/* footer section styling */
+footer{
+    width: 1140px;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 79px;
+    margin-bottom: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-icons img{
+    width: 36px;
+    height: 36px;
+}
+
+footer p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
